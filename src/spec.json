@@ -1,0 +1,239 @@
+{
+  "title": "Gestione corsi di formazione",
+  "description": "Catalogo dei corsi interni con docenti, calendario e disponibilità dei posti. Usa le tabelle per consultare e filtrare l’offerta, quindi registra nuovi corsi dal relativo modulo.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dell’offerta formativa e dei posti disponibili presso l’organizzazione inventata Lumo Officina.",
+      "metrics": [
+        {
+          "label": "Corsi in catalogo",
+          "value": "18"
+        },
+        {
+          "label": "In programma",
+          "value": "7"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "64"
+        },
+        {
+          "label": "Docenti coinvolti",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di progettazione",
+          "Vela Sarti",
+          "12/09/2026",
+          "8",
+          "In programma"
+        ],
+        [
+          "Scrittura per progetti",
+          "Nubi Rena",
+          "16/09/2026",
+          "5",
+          "In programma"
+        ],
+        [
+          "Strumenti di analisi",
+          "Lumo Tavi",
+          "22/09/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Facilitazione di gruppo",
+          "Riva Solen",
+          "29/09/2026",
+          "11",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi per titolo, docente, date, capienza e stato.",
+      "metrics": [
+        {
+          "label": "Risultati",
+          "value": "18"
+        },
+        {
+          "label": "Posti occupati",
+          "value": "126"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Aula",
+        "Posti totali",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di progettazione",
+          "Vela Sarti",
+          "12/09/2026",
+          "09:30",
+          "Sala Lumo",
+          "16",
+          "8",
+          "In programma"
+        ],
+        [
+          "Scrittura per progetti",
+          "Nubi Rena",
+          "16/09/2026",
+          "14:00",
+          "Sala Vela",
+          "12",
+          "5",
+          "In programma"
+        ],
+        [
+          "Strumenti di analisi",
+          "Lumo Tavi",
+          "22/09/2026",
+          "10:00",
+          "Sala Nubi",
+          "14",
+          "0",
+          "Completo"
+        ],
+        [
+          "Facilitazione di gruppo",
+          "Riva Solen",
+          "29/09/2026",
+          "09:00",
+          "Sala Lumo",
+          "18",
+          "11",
+          "In programma"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Tesa Vori",
+          "03/10/2026",
+          "13:30",
+          "Sala Vela",
+          "16",
+          "16",
+          "In programma"
+        ],
+        [
+          "Comunicazione essenziale",
+          "Mira Loven",
+          "08/10/2026",
+          "10:30",
+          "Sala Nubi",
+          "12",
+          "7",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-corso",
+      "title": "Nuovo corso",
+      "description": "Registra un corso interno indicando docente, calendario, aula e disponibilità.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Aula",
+        "Posti totali"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Aula",
+        "Posti totali"
+      ]
+    },
+    {
+      "id": "docenti",
+      "title": "Docenti",
+      "description": "Elenco dei docenti interni e dei corsi associati, con possibilità di filtrare la tabella per nominativo o corso.",
+      "metrics": [
+        {
+          "label": "Docenti attivi",
+          "value": "12"
+        },
+        {
+          "label": "Corsi assegnati",
+          "value": "18"
+        }
+      ],
+      "columns": [
+        "Docente",
+        "Area",
+        "Corsi assegnati",
+        "Prossimo corso",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Vela Sarti",
+          "Progettazione",
+          "2",
+          "12/09/2026",
+          "Attivo"
+        ],
+        [
+          "Nubi Rena",
+          "Scrittura",
+          "2",
+          "16/09/2026",
+          "Attivo"
+        ],
+        [
+          "Lumo Tavi",
+          "Analisi",
+          "1",
+          "22/09/2026",
+          "Attivo"
+        ],
+        [
+          "Riva Solen",
+          "Facilitazione",
+          "2",
+          "29/09/2026",
+          "Attivo"
+        ],
+        [
+          "Tesa Vori",
+          "Organizzazione",
+          "1",
+          "03/10/2026",
+          "Attivo"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
